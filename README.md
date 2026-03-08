@@ -1,5 +1,6 @@
 # 🏎️ Random Forest IDS for Automotive CAN Networks  
 This project implements a Machine Learning-based Intrusion Detection System (IDS) specifically designed to protect the Controller Area Network (CAN) of modern vehicles.  
+
 The system leverages an optimized Random Forest classifier to detect malicious injections, such as Fuzzing and Replay attacks, which exploit the lack of inherent security in the CAN protocol.  
 
 ## 🚀 Key Features  
