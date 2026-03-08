@@ -1,7 +1,6 @@
 # 🏎️ Random Forest IDS for Automotive CAN Networks  
-
-## This project implements a Machine Learning-based Intrusion Detection System (IDS) specifically designed to protect the Controller Area Network (CAN) of modern vehicles.  
-## The system leverages an optimized Random Forest classifier to detect malicious injections, such as Fuzzing and Replay attacks, which exploit the lack of inherent security in the CAN protocol.  
+This project implements a Machine Learning-based Intrusion Detection System (IDS) specifically designed to protect the Controller Area Network (CAN) of modern vehicles.  
+The system leverages an optimized Random Forest classifier to detect malicious injections, such as Fuzzing and Replay attacks, which exploit the lack of inherent security in the CAN protocol.  
 
 ## 🚀 Key Features  
 Custom Data Pipeline: A dedicated Python-based preprocessing routine that converts raw hexadecimal CAN frames into decimal integers for mathematical processing.  
@@ -17,10 +16,11 @@ Dataset: CloudIDS Dataset — raw CAN frames from real-world vehicles.
 
 ## 📊 Performance Metrics
 The model was evaluated using a 20% hold-out test split consisting of 265,584 frames. To handle the unbalanced nature of CAN traffic, the class_weight='balanced' parameter was utilized.  
-Metric	          Score  
-Accuracy	        94.39%  
-Recall            85.32%  
-F1-Score	        81.64%  
+| Metric   | Score  |
+|----------|--------|
+| Accuracy | 94.39% |
+| Recall   | 85.32% |
+| F1-Score | 81.64% |
 
 ## Confusion Matrix Summary  
 True Negatives: 217,521 (Legitimate frames correctly identified)  
