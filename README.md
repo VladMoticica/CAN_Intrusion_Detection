@@ -29,11 +29,11 @@ False Negatives: 5,702 (Missed attacks - critical safety risk)
 False Positives: 9,208 (False alarms)  
 
 ## 📂 Methodology Workflow  
-Data Acquisition: Loading the CloudIDS dataset featuring CAN IDs, DLC, and 8-byte data payloads.
-Preprocessing: * Hexadecimal conversion using a custom hex_converter function.
-Feature (CAN heartbeat) and Label (Ground truth) separation.
-Model Training: Training the Random Forest with optimizations for real-time embedded execution.
-Validation: Analyzing ROC and Precision-Recall curves to ensure reliability across detection thresholds.
+Data Acquisition: Loading the CloudIDS dataset featuring CAN IDs, DLC, and 8-byte data payloads.  
+Preprocessing: * Hexadecimal conversion using a custom hex_converter function.  
+Feature (CAN heartbeat) and Label (Ground truth) separation.  
+Model Training: Training the Random Forest with optimizations for real-time embedded execution.  
+Validation: Analyzing ROC and Precision-Recall curves to ensure reliability across detection thresholds.  
 
 ## 🔮 Future Work & References
 Temporal Features: Integrating precise inter-arrival times between messages to reduce false positives.  
