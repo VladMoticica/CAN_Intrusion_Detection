@@ -35,7 +35,7 @@ False Positives: 9,208 (False alarms)
 ## 📂 Methodology Workflow  
 Data Acquisition: Loading the CloudIDS dataset featuring CAN IDs, DLC, and 8-byte data payloads. 
 
-Preprocessing: * Hexadecimal conversion using a custom hex_converter function.  
+Preprocessing: Hexadecimal conversion using a custom hex_converter function.  
 
 Feature (CAN heartbeat) and Label (Ground truth) separation.  
 
