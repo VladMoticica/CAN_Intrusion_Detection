@@ -48,4 +48,4 @@ Temporal Features: Integrating precise inter-arrival times between messages to r
 
 Hybrid Architectures: Combining Random Forest with Long Short-Term Memory (LSTM) neural networks to track long-term sequences and secure against Advanced Persistent Threats (APTs).  
 
-Dataset Source: Andreica and B. Groza, "CloudIDS: A Cloud-based Intrusion Detection System for Vehicles".  
+Dataset Source: T. Andreica and B. Groza, "CloudIDS: A Cloud-based Intrusion Detection System for Vehicles," GitHub Repository, 2021. [Online]. Available: https://github.com/andrtu2/CloudIDS.
