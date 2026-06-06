@@ -14,8 +14,11 @@ High Operational Sensitivity: Achieves an exceptional True Positive rate by reco
 
 ## 🛠️ Tech Stack  
 Language: Python
+
 Environment: Jupyter Notebook / VS Code Interactive Mode
+
 Algorithms: Random Forest Classifier (Ensemble Model)
+
 Dataset Pool: CloudIDS Dataset matrix — raw CAN frames gathered from real-world vehicles.
 
 ## 📊 Performance Metrics
@@ -31,8 +34,11 @@ The model was evaluated using a 20% hold-out test split consisting of 265,584 fr
 
 ## Confusion Matrix Summary  
 True Negatives (TN): 208,994 (Benign automotive traffic allowed unhindered)
+
 True Positives (TP): 34,408 (Malicious injections successfully caught and isolated)
+
 False Negatives (FN): 4,447 (Missed attack frames — Critical vehicle safety risk managed)
+
 False Positives (FP): 17,735 (False alarms triggered on legitimate messages)
 
 ## 📂 Methodology Workflow  
